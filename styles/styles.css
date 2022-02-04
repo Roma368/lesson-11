@@ -1,0 +1,130 @@
+body{
+  margin: 0 10%;
+}
+
+.header {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.header ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header ul li{
+  list-style: none;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'Gilroy-Bold';
+  font-size: 24px;
+  line-height: 22px;
+  color: #070707;
+}
+
+.pre-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leng {
+  height: 20px;
+  font-family: 'Gilroy-Bold';
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+  transform: rotate(-90deg);
+}
+
+.eng {
+  color: #000;
+}
+
+.header-image img{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-me {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 506px;
+  background: #F6F6F6;
+}
+
+.about-me-text {
+  width: 50%;
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #070707;
+}
+
+.skills-section {
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-items {
+  margin: 5% 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.gilroy-bold {
+  font-family: 'Gilroy-Bold';
+}
+
+.gilroy-medium {
+  font-family: 'Gilroy-Medium';
+}
+
+.portfolio {
+  margin: 10% 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio h2{
+  font-size: 24px;
+}
+
+.portfolio img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+footer{
+  margin: 10% 0 20%;
+}
+
+.contacts-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-button{
+  height: 30px;
+  width: 15%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
