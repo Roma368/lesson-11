@@ -8,6 +8,11 @@ body{
   padding-bottom: 5%;
 }
 
+.sandwich{
+  display: none;
+  transform: rotate(-90deg);
+}
+
 .header ul{
   display: flex;
   flex-direction: row;
@@ -80,9 +85,8 @@ h2 {
 .skills-items {
   margin: 5% 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 
@@ -101,10 +105,6 @@ h2 {
   align-items: center;
 }
 
-.portfolio h2{
-  font-size: 24px;
-}
-
 .portfolio img{
   width: 100%;
   margin: 0 auto;
@@ -112,19 +112,103 @@ h2 {
 
 footer{
   margin: 10% 0 20%;
-}
-
-.contacts-section{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
+
+
 .footer-button{
+  text-align: center;
   height: 30px;
-  width: 15%;
+  width: 45%;
   background-color: black;
   color: white;
   border-radius: 20px;
+}
+
+.contacts-container{
+  margin: 5% 0 20% 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.post-scrptium{
+  opacity: 0.5;
+}
+
+.bg2{
+  display: none;
+}
+
+@media screen and (max-device-width: 480px){
+body{
+  margin: 0 0;
+  font-size: calc(100% + 16px);
+}
+
+.desktop-li{
+  display: none;
+}
+.pre-header{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.leng{
+  display: none;
+}
+
+.name{
+  font-size: 56px;
+}
+
+.bg1{
+  display: none;
+}
+
+.bg2{
+  display: block;
+}
+
+.skills-items{
+  width: 100%;
+}
+
+.about-me-text{
+  font-size: 26px ;
+  line-height: 28px;
+}
+
+h2 {
+  font-size: calc(100% + 8px);
+  line-height: 22px;
+}
+
+.portfolio-h2{
+  font-size: calc(100% + 8px);
+}
+
+.footer-button{
+  width: 60%;
+  height: 40px;
+  font-size: x-large;
+}
+
+.sandwich{
+  position: absolute;
+  display: block;
+  right: 25px;
+  font-size: xxx-large;
+}
+
+.skills-items>*{
+  margin: 0 auto;
+  padding: 2% 25%;
+  width: 240px;
+}
+
 }
